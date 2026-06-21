@@ -8,5 +8,5 @@
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <artifactId>voting-core</artifactId>
+    <artifactId>polling-core</artifactId>
 </project>

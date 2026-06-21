@@ -13,13 +13,13 @@
     <dependencies>
         <dependency>
             <groupId>com.matthew.platform</groupId>
-            <artifactId>voting-core</artifactId>
+            <artifactId>polling-core</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.matthew.platform</groupId>
-            <artifactId>persistence</artifactId>
+            <artifactId>poll-persistence</artifactId>
             <version>${project.version}</version>
         </dependency>
 
@@ -40,6 +40,14 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.3.0</version>
+                <configuration>
+                    <mainClass>com.matthew.platform.discord.BotApplication</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>

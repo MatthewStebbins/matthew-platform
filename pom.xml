@@ -11,8 +11,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>modules/voting-core</module>
-        <module>modules/persistence</module>
+        <module>modules/poll-core</module>
+        <module>modules/poll-persistence</module>
         <module>apps/discord-bot</module>
     </modules>
 

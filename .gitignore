@@ -16,8 +16,8 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
-/infrastructure/.env.example
 .idea/
 .vscode/
 .env
 *.iml
+!/infrastructure/.env.example
