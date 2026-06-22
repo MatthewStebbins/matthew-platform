@@ -1,4 +1,10 @@
 package com.matthew.platform.poll.service;
 
-public class PollService {
+import com.matthew.platform.poll.domain.Poll;
+
+public interface PollService {
+
+    Poll createPoll(String name);
+
+    Poll getPoll(String id);
 }

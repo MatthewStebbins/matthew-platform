@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="discord-bot" />
+        <module name="polling-core" />
         <module name="poll-persistence" />
-        <module name="poll-core" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="21" />
+    <bytecodeTargetLevel target="21">
+      <module name="poll-core" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>
